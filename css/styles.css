@@ -302,21 +302,20 @@ p{
 
     object-fit:cover;
 
-    border-radius:25px;
-
     display:block;
 
 }
 
+
 .tarjeta{
 
-    background:white;
+    background:transparent;
 
     padding:0;
 
-    overflow:hidden;
-
     border-radius:25px;
+
+    overflow:hidden;
 
     height:170px;
 
@@ -354,7 +353,7 @@ p{
 
     .tarjeta{
 
-        min-height:120px;
+        min-height:130px;
 
         padding:12px 8px;
 
