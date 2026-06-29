@@ -317,7 +317,7 @@ p{
 
     overflow:hidden;
 
-    height:170px;
+    height:180px;
 
     box-shadow:0 10px 25px rgba(0,0,0,.1);
 
@@ -353,7 +353,7 @@ p{
 
     .tarjeta{
 
-        height:145px;
+        height:155px;
 
         background:#fff;
 
@@ -383,13 +383,13 @@ p{
 
 .tarjeta img{
 
-    width:100%;
+    width:110%;
 
-    height:100%;
+    height:110%;
 
     object-fit:contain;
 
-    transform:scale(1.15);
+    transform:translate(-5%,-5%);
 
     display:block;
 
