@@ -29,13 +29,13 @@ body{
 
     display:flex;
 
-    justify-content:center;
+    justify-content:flex-start;
 
     align-items:center;
 
     text-align:center;
 
-    padding:20px;
+    padding:10px 20px 20px;
 
 }
 
@@ -43,19 +43,17 @@ body{
 
     max-width:500px;
 
+    width:100%;
+
+    margin:0 auto;
+
+    padding-top:10px;
+
     display:flex;
 
     flex-direction:column;
 
     align-items:center;
-
-    justify-content:center;
-
-    gap:0;
-
-    max-width:600px;
-
-    width:100%;
 
 }
 
@@ -126,9 +124,13 @@ p{
 
 .logo{
 
-    width:320px;
+    width:85vw;
 
-    max-width:90%;
+    max-width:380px;
+
+    aspect-ratio:1/1;
+
+    object-fit:contain;
 
     border-radius:25px;
 
