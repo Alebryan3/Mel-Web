@@ -333,4 +333,54 @@ p{
 
 }
 
+@media(max-width:600px){
+
+    .tarjetas{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:12px;
+
+        padding:10px;
+
+    }
+
+
+    .tarjeta{
+
+        min-height:180px;
+
+        padding:20px 10px;
+
+        border-radius:25px;
+
+    }
+
+
+    .tarjeta img{
+
+        height:90px;
+
+        object-fit:cover;
+
+    }
+
+
+    .tarjeta h3{
+
+        font-size:16px;
+
+        margin:10px 0;
+
+    }
+
+
+    .tarjeta p{
+
+        font-size:13px;
+
+        margin-top:5px;
+
+    }
+
 }
