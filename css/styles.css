@@ -353,7 +353,7 @@ p{
 
     .tarjeta{
 
-        height:130px;
+        height:145px;
 
         background:#fff;
 
@@ -388,6 +388,8 @@ p{
     height:100%;
 
     object-fit:contain;
+
+    transform:scale(1.15);
 
     display:block;
 
