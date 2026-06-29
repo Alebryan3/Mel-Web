@@ -191,15 +191,6 @@ p{
 
 }
 
-@media(max-width:600px){
-
-    .tarjetas{
-
-        grid-template-columns:1fr;
-
-    }
-
-}
 
 .novedades{
 
@@ -324,5 +315,22 @@ p{
     justify-content:center;
 
     align-items:center;
+
+}
+
+.tarjeta{
+
+    min-height:150px;
+
+    font-size:30px;
+
+}
+
+
+.tarjeta h3{
+
+    font-size:17px;
+
+}
 
 }
