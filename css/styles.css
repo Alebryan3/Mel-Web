@@ -144,9 +144,13 @@ p{
 
     display:grid;
 
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns:repeat(2,1fr);
 
-    gap:25px;
+    gap:20px;
+
+    max-width:700px;
+
+    margin:auto;
 
 }
 
@@ -301,6 +305,24 @@ p{
 
 .tarjeta{
 
-    overflow:hidden;
+    background:white;
+
+    padding:25px 15px;
+
+    border-radius:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+    font-size:35px;
+
+    min-height:170px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
 
 }
