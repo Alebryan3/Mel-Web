@@ -16,7 +16,7 @@ body{
 
 .hero{
 
-    height:100vh;
+    height:85vh;
 
     display:flex;
 
@@ -32,6 +32,8 @@ body{
 
 .hero-contenido{
 
+    padding-bottom:20px;
+    
     max-width:500px;
 
     display:flex;
