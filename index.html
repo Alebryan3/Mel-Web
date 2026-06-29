@@ -1,20 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mel WEB</title>
+  <title>Bazar Papeleria MEL</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body>
-  <header>
-    <h1>Welcome to Mel WEB</h1>
-    <p>A simple starter website.</p>
-  </header>
-  <main>
-    <button id="actionButton">Click me</button>
-    <p id="message"></p>
-  </main>
-  <script src="js/app.js"></script>
+<body><header class="hero">
+
+    <div class="hero-contenido">
+
+       <img src="images/logo/logo-mel.jpeg" alt="Logo Bazar Papelería MEL" class="logo">
+
+        <h1>Bazar Papelería <span>MEL</span></h1>
+
+        <p>
+            Aquí siempre encuentras lo que necesitas y algo más.
+        </p>
+
+        <a href="#" class="boton">
+            Explorar
+        </a>
+
+    </div>
+
+</header>
+<section class="categorias">
+
+    <h2>Descubre lo que tenemos</h2>
+
+    <div class="tarjetas">
+
+        <div class="tarjeta">
+            📚
+            <h3>Material escolar</h3>
+            <p>Todo lo que necesitas para estudiar.</p>
+        </div>
+
+
+        <div class="tarjeta">
+            <img src="images/productos/regalos.jpg" alt="Regalos">
+            <p>Sorpresas para todos.</p>
+        </div>
+
+
+        <div class="tarjeta">
+            🪅
+            <h3>Manualidades y maquetas</h3>
+            <p>Trabajos para ti.</p>
+        </div>
+
+        <div class="tarjeta" onclick="mostrarNovedades()">
+
+    ✨
+    <h3>Novedades</h3>
+
+    <p>
+        Descubre nuestras novedades de la semana.
+    </p>
+
+</div>
+
+</div>
+
+</section>
+  
+<section class="novedades" id="novedades">
+
+    <h2>Descubre nuestras novedades de la semana</h2>
+
+
+    <div class="productos">
+
+
+        <div class="producto">
+
+            <div class="imagen-producto">
+
+    <div class="imagen-producto">
+
+    <img src="D:\Mel-WEB\images\productos\regalo.jpg" alt="Regalo">
+
+</div>
+
+            <h3>Regalos bonitos</h3>
+
+            <p>
+                Detalles para sorprender.
+            </p>
+
+        </div>
+
+
+        <div class="producto">
+
+            <div class="imagen-producto">
+                🧸
+            </div>
+
+            <h3>Peluche especial</h3>
+
+            <p>
+                Un detalle que alegra.
+            </p>
+
+        </div>
+
+
+        <div class="producto">
+
+            <div class="imagen-producto">
+                ✨
+            </div>
+
+            <h3>Novedades MEL</h3>
+
+            <p>
+                Nuevos productos cada semana.
+            </p>
+
+        </div>
+
+
+        <div class="producto">
+
+            <div class="imagen-producto">
+                💜
+            </div>
+
+            <h3>Detalles únicos</h3>
+
+            <p>
+                Algo especial para regalar.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<script src="js/app.js"></script>
+
 </body>
 </html>

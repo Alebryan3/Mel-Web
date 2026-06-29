@@ -1,7 +1,11 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const button = document.getElementById('actionButton');
-  const message = document.getElementById('message');
-  button.addEventListener('click', function () {
-    message.textContent = 'Hello from Mel WEB!';
-  });
-});
+function mostrarNovedades(){
+
+    let seccion = document.getElementById("novedades");
+
+    seccion.style.display="block";
+
+    seccion.scrollIntoView({
+        behavior:"smooth"
+    });
+
+}
