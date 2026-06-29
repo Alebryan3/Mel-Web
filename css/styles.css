@@ -18,7 +18,9 @@ body{
 
     min-height:auto;
 
-    padding:40px 30px 25px;
+    height:auto;
+
+    padding:30px 25px 15px;
 
     display:flex;
 
@@ -28,13 +30,9 @@ body{
 
     text-align:center;
 
-    padding:30px;
-
 }
 
 .hero-contenido{
-
-    padding-bottom:20px;
 
     max-width:500px;
 
@@ -45,6 +43,8 @@ body{
     align-items:center;
 
     justify-content:center;
+
+    gap:0;
 
 }
 
@@ -126,9 +126,7 @@ p{
 
 .categorias{
 
-      padding:60px 25px;
-
-    text-align:center;
+    padding:10px 25px 60px;
 
 }
 
