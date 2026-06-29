@@ -25,19 +25,17 @@ body{
 
 .hero{
 
-    min-height:100vh;
+    min-height:auto;
 
     display:flex;
 
-    justify-content:center;
+    justify-content:flex-start;
 
     align-items:center;
 
     text-align:center;
 
-    padding:30px 20px;
-
-    background:linear-gradient(180deg,#FFF8FD 0%,#F7F1FF 60%,#FFFDFB 100%);
+    padding:15px 20px 5px;
 
 }
 
@@ -122,15 +120,9 @@ p{
 
 .logo{
 
-    width:80vw;
+    width:95%;
 
-    max-width:340px;
-
-    border-radius:30px;
-
-    margin-bottom:25px;
-
-    box-shadow:0 20px 45px rgba(0,0,0,.18);
+    max-width:420px;
 
 }
 .categorias{
