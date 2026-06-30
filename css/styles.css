@@ -53,6 +53,18 @@ body{
 
 }
 
+.portada{
+
+    width:100%;
+
+    max-width:500px;
+
+    display:block;
+
+    border-radius:35px;
+
+}
+
 h1{
 
     font-size:48px;
